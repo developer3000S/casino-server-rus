@@ -29,26 +29,26 @@
     "url": "https://github.com/floatinghotpot/casino-server/issues"
   },
   "dependencies": {
-    "minimist": "^1.1.0",
     "express": "^4.10.4",
+    "minimist": "^1.1.0",
     "redis": "^0.12.1",
-    "socket.io": "^1.2.1",
-    "socket.io-redis": "^0.1.4"
+    "socket.io": "^4.8.3",
+    "socket.io-redis": "^5.4.0"
   },
   "devDependencies": {
-    "gulp": "^3.8.10",
-    "gulp-jasmine": "^1.0.1",
-    "gulp-concat": "^2.4.2",
-    "gulp-jshint": "^1.9.0",
-    "gulp-myth": "^1.0.2",
-    "gulp-minify-css": "^0.3.11",
-    "gulp-uglify": "^1.0.2",
-    "vinyl-source-stream": "^1.0.0",
-    "jasmine-reporters": "^1.0.1",
-    "browserify": "^7.0.0",
-    "browser-sync": "^1.7.2",
+    "browser-sync": "^3.0.4",
+    "browserify": "^17.0.1",
     "del": "^1.1.0",
-    "read": "^1.0.5"
+    "gulp": "^5.0.1",
+    "gulp-concat": "^2.4.2",
+    "gulp-jasmine": "^4.0.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-minify-css": "^0.3.11",
+    "gulp-myth": "^0.1.0",
+    "gulp-uglify": "^3.0.2",
+    "jasmine-reporters": "^1.0.1",
+    "read": "^1.0.5",
+    "vinyl-source-stream": "^1.0.0"
   },
   "analyze": false,
   "preferGlobal": "true",

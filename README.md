@@ -62,13 +62,13 @@ PM2 — это менеджер процессов для приложений N
 
 ```bash
 [sudo] npm install pm2 -g
-[sudo] npm install casino-server-rus -g
+[sudo] npm install casino-server -g
 
 # сначала запустите redis-server
 redis-server &
 
 # запуск службы в режиме кластера
-pm2 start `which casino-server-rus` -i 0
+pm2 start `which casino-server` -i 0
 ```
 
 * Установка как локального приложения Node.js и запуск в текущей папке:
@@ -79,7 +79,7 @@ cd casino
 npm install
 # sudo npm install -g gulp
 # gulp build
-node bin/casino-server-rus [options]
+node bin/casino-server [options]
 ```
 
 Теперь вы можете открыть http://localhost:7000 — это веб-клиент игры для тестирования и демонстрации.
