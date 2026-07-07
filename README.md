@@ -8,8 +8,8 @@
 
 Сервер для онлайн-покера на базе Redis, Node.js и Socket.io.
 
-![A](https://github.com/floatinghotpot/casino-server/raw/master/wwwsrc/img/4_14.png) ![A](https://github.com/floatinghotpot/casino-server/raw/master/wwwsrc/img/3_14.png)
-![A](https://github.com/floatinghotpot/casino-server/raw/master/wwwsrc/img/2_14.png)
+![A](https://github.com/developer3000s/casino-server-rus/raw/master/wwwsrc/img/4_14.png) ![A](https://github.com/developer3000s/casino-server-rus/raw/master/wwwsrc/img/3_14.png)
+![A](https://github.com/developer3000s/casino-server-rus/raw/master/wwwsrc/img/2_14.png)
   
 Поддерживаемые игровые правила:
 - [x] Чат-комната (聊天室)
@@ -34,7 +34,7 @@
 
 # Архитектура #
 
-![Architecture](https://github.com/floatinghotpot/casino-server/raw/master/docs/architecture.png)
+![Architecture](https://github.com/developer3000s/casino-server-rus/raw/master/docs/architecture.png)
 
 ## Требования ##
 
@@ -62,24 +62,24 @@ PM2 — это менеджер процессов для приложений N
 
 ```bash
 [sudo] npm install pm2 -g
-[sudo] npm install casino-server -g
+[sudo] npm install casino-server-rus -g
 
 # сначала запустите redis-server
 redis-server &
 
 # запуск службы в режиме кластера
-pm2 start `which casino-server` -i 0
+pm2 start `which casino-server-rus` -i 0
 ```
 
 * Установка как локального приложения Node.js и запуск в текущей папке:
 
 ```bash
-git clone https://github.com/floatinghotpot/casino-server.git casino
+git clone https://github.com/developer3000S/casino-server-rus.git casino
 cd casino
 npm install
 # sudo npm install -g gulp
 # gulp build
-node bin/casino-server [options]
+node bin/casino-server-rus [options]
 ```
 
 Теперь вы можете открыть http://localhost:7000 — это веб-клиент игры для тестирования и демонстрации.
