@@ -8,8 +8,8 @@
 
 Сервер для онлайн-покера на базе Redis, Node.js и Socket.io.
 
-![A](https://github.com/developer3000s/casino-server-rus/raw/master/wwwsrc/img/4_14.png) ![A](https://github.com/developer3000s/casino-server-rus/raw/master/wwwsrc/img/3_14.png)
-![A](https://github.com/developer3000s/casino-server-rus/raw/master/wwwsrc/img/2_14.png)
+![A](https://github.com/developer3000S/casino-server-rus/blob/main/wwwsrc/img/4_14.png?raw=true) ![A](https://github.com/developer3000S/casino-server-rus/blob/main/wwwsrc/img/3_14.png?raw=true)
+![A](https://github.com/developer3000S/casino-server-rus/blob/main/wwwsrc/img/2_14.png?raw=true)
   
 Поддерживаемые игровые правила:
 - [x] Чат-комната (聊天室)
@@ -34,7 +34,7 @@
 
 # Архитектура #
 
-![Architecture](https://github.com/developer3000s/casino-server-rus/raw/master/docs/architecture.png)
+![Architecture](https://github.com/developer3000S/casino-server-rus/blob/main/docs/architecture.png?raw=true)
 
 ## Требования ##
 
